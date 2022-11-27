@@ -1,0 +1,42 @@
+.firstSection{
+    background-color: #E4F9F5;
+    text-align: center;
+    color: #66BFBF;
+}
+.secondSection{
+    text-align: center;
+}
+.designDev{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.designDev1{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.btnDiv{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+.btn{
+    background-color: #11cdd4;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+footer {
+  margin: auto;
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+  right: 0px;
+  position: absolute;
+}
