@@ -2,6 +2,7 @@
     background-color: #E4F9F5;
     text-align: center;
     color: #66BFBF;
+    align-items: flex-end;
 }
 .secondSection{
     text-align: center;
