@@ -3,20 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Raleway" rel="stylesheet">
   <title>Fylo data storage component</title>
 </head>
 
-<body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+<body class="back">
+  <div class="parent">
+    <img src="assets/bg-desktop.png" class="img1"/>
+    <div class="centerDiv">
+      <div>
+        <img src="assets/logo.svg"/>
+        <div style="margin: 5px;">
+          <img src="assets/icon-upload.svg" class="icon"/>
+          <img src="assets/icon-document.svg" class="icon"/>
+          <img src="assets/icon-folder.svg" class="icon" />
+        </div>
+      </div>
+    <div class="secondCenterDiv ">
+      <p class="header" style="font-family: Raleway;">You've used</p>
+      <div class="progress-bar" role="progressbar" data-label="Loading...."></div>
+    </div>
+  </div>
 </body>
 </html>
