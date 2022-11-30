@@ -10,21 +10,28 @@
 </head>
 
 <body class="back">
-  <div class="parent">
-    <img src="assets/bg-desktop.png" class="img1"/>
-    <div class="centerDiv">
-      <div>
-        <img src="assets/logo.svg"/>
-        <div style="margin: 5px;">
-          <img src="assets/icon-upload.svg" class="icon"/>
-          <img src="assets/icon-document.svg" class="icon"/>
-          <img src="assets/icon-folder.svg" class="icon" />
+  <section section class="container">
+    <div class="child">
+      <div class="child1">
+        <img src="assets/logo.svg" height="30px" width="110px"/>
+        <div class="icons">
+          <img src="assets/icon-document.svg" class="img1"/>
+          <img src="assets/icon-folder.svg" class="img1" />
+          <img src="assets/icon-upload.svg" class="img1" />
         </div>
       </div>
-    <div class="secondCenterDiv ">
-      <p class="header" style="font-family: Raleway;">You've used</p>
-      <div class="progress-bar" role="progressbar" data-label="Loading...."></div>
     </div>
-  </div>
+    <div class="child">
+      <div class="child2">
+        <h4 style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">You've used <span>815 GB </span> of your storage</h4>
+        <div class="progress-bar" style="--width:90"></div>
+        <div class="numbers">
+          <h5>0GB</h5>
+          <h5>1000GB</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <img class="desktop" src="assets/bg-desktop.png"/>
 </body>
 </html>
