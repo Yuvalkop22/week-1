@@ -18,9 +18,9 @@
     bottom: .5em;
     height: 1.5em;
     border-radius: 1.5em;
-    width: 300px;
-    min-width: 2em;
-    max-width: calc(100%-1em);
+    width: calc(var(--width,0) * 1%);
+    min-width: 0px;
+    max-width: 345px;
     background-color: lightcoral;
 }
 .back{
@@ -44,9 +44,9 @@
 .child:nth-child(1){
     background: hsl(228, 56%, 26%);
     width: 250px;
-    height: 150px;
-    border-radius: 10px;
+    height: 220px;
     border-top-right-radius: 90px;
+    border-radius: 10px;
 }
 .child1{
     margin-left: 25px;
@@ -93,13 +93,13 @@
     color: white;
 }
 .circle{
-    position: absolute;
+    /* position: absolute; */
     background-color: white;
     height: 20px;
     width: 20px;
     border-radius: 25px;
     margin-top: -22px;
-    margin-left: 280px;
+    margin-left: 0px;
 }
 .c{
     /* background: linear-gradient(to right,#159957,#159959); */
@@ -123,6 +123,7 @@
     font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .bubble::after{
     content: '';
     position: absolute;
@@ -137,4 +138,19 @@
     margin-left: -25px;
     margin-bottom: -35px;
     transform: rotate(0deg);
+}
+input#file-input{
+    display: none;
+}
+input#file-input + label{
+    background-color: #4d8cf2;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid #9ec3ff;
+    border-radius: 9px;
+}
+input#file-input + label:hover{
+    background-color: #3b73ce;
+    background-color: #729fe7;
+    cursor: pointer;
 }
